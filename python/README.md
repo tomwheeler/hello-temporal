@@ -46,7 +46,7 @@ in both of the terminal windows where you run the code.
 |------------------------|---------------------------------------|-------------------
 | `TEMPORAL_ADDRESS`     | `us-east-1.aws.api.temporal.io:7233`  | Temporal Service endpoint address (hostname:port) 
 | `TEMPORAL_NAMESPACE`   | `example.c9ef8`                       | Name of the Namespace within Temporal Cloud
-| `TEMPORAL_API_KEY`     | `abc123.actual.value.redacted.xyz789` | API key to use when authenticating with Temporal Cloud
+| `TEMPORAL_API_KEY`     | `abc123.actual.value.redacted.xyz789` | API Key for Temporal Cloud authentication
 
 
 As an alternative to API Key authentication, you can use mTLS authentication
