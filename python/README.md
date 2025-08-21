@@ -13,20 +13,29 @@ with any recent version of Python.
 
 ## Prerequisite steps for running the example locally
 
+This example can use either a self-hosted Temporal Service or
+Temporal Cloud. The application is designed to configure itself
+based on environment variables, so you can switch between these
+without changing a single line of code. 
+
+### Complete these steps before running the example locally
+
 You can run this example locally by using the `temporal` CLI
 to start the Temporal Service on your machine. If you have not
 already installed the `temporal` CLI, follow the steps listed in
 the [Install the Temporal CLI](https://docs.temporal.io/cli#install)
 documentation.
 
-Open a new Terminal window and run the following command to 
-start the development server:
+The application is configured to use a local Temporal Service by 
+default, so you don't need to set any environment variables in
+this case, but the service must be running. Open a new terminal 
+window and run the following command to start it:
 
 ```
 temporal server start-dev
 ```
 
-## Prerequisite steps for running the example with Temporal Cloud
+### Complete these steps before running the example with Temporal Cloud
 
 If you have a Temporal Cloud account, you can use Temporal Cloud
 instead of running a local Temporal Service as described in the 
@@ -34,7 +43,7 @@ previous section. To do this, you must set three environment variables
 in both of the terminal windows where you run the code.
 
 | Variable Name          | Example                               | Description
-|------------------------|------------------=--------------------|-------------------
+|------------------------|---------------------------------------|-------------------
 | `TEMPORAL_ADDRESS`     | `us-east-1.aws.api.temporal.io:7233`  | Hostname:Port of the Temporal Service Frontend (endpoint) address
 | `TEMPORAL_NAMESPACE`   | `example.c9ef8`                       | Name of the Namespace within Temporal Cloud
 | `TEMPORAL_API_KEY`     | `abc123.actual.value.redacted.xyz789` | API key to use when authenticating with Temporal Cloud
