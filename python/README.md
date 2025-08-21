@@ -11,7 +11,7 @@ cd python
 This example has been tested with Python 3.13, but should work
 with any recent version of Python.
 
-## Prerequisite steps for running the example locally
+## Prerequisite steps for running the example
 
 This example can use either a self-hosted Temporal Service or
 Temporal Cloud. The application is designed to configure itself
