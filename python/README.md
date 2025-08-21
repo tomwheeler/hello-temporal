@@ -44,7 +44,7 @@ in both of the terminal windows where you run the code.
 
 | Variable Name          | Example                               | Description
 |------------------------|---------------------------------------|-------------------
-| `TEMPORAL_ADDRESS`     | `us-east-1.aws.api.temporal.io:7233`  | Address of the Temporal Service (host:port) 
+| `TEMPORAL_ADDRESS`     | `us-east-1.aws.api.temporal.io:7233`  | Temporal Service endpoint address (hostname:port) 
 | `TEMPORAL_NAMESPACE`   | `example.c9ef8`                       | Name of the Namespace within Temporal Cloud
 | `TEMPORAL_API_KEY`     | `abc123.actual.value.redacted.xyz789` | API key to use when authenticating with Temporal Cloud
 
