@@ -12,7 +12,7 @@ or Temporal Cloud.
 - Supports both mTLS and API Key authentication
 
 
-## Running the example with a local Temporal Service
+## Running the Example With a Local Temporal Service
 
 The application is configured to use a local Temporal Service by 
 default, so you don't need to set any environment variables in
@@ -135,6 +135,6 @@ export TEMPORAL_TLS_KEY='/path/to/client.key'
 - `activities.py` - Code that defines the Activities
 - `run_worker.py` - Code used to configure and launch the Worker
 - `start_workflow.py` - Code that requests execution of the Workflow and displays the result
-- `client_provider.py` - Code that configures the Temporal Client based oin environment variables
+- `client_provider.py` - Code that configures the Temporal Client based on environment variables
 
 
