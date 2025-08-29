@@ -114,19 +114,29 @@ Once you have set these environment variables, you can repeat steps
 
 ### Use Temporal Cloud with API Key authentication
 
+In the commands below, replace the quoted values with the ones
+for [your Temporal Cloud Namespace](https://docs.temporal.io/cloud/namespaces#access-namespaces). If you're using Microsoft Windows, you may need to
+replace `export` with `set`.
+
+
 ```bash
-export TEMPORAL_ADDRESS='region.cloud.api.temporal.io:7233'
-export TEMPORAL_NAMESPACE='example.c9ef8'
-export TEMPORAL_API_KEY='abc123.actual.value.redacted.xyz789'
+export TEMPORAL_ADDRESS="region.cloud.api.temporal.io:7233"
+export TEMPORAL_NAMESPACE="example.c9ef8"
+export TEMPORAL_API_KEY="abc123.actual.value.redacted.xyz789"
 ```
 
 ### Use Temporal Cloud with mTLS authentication
 
+In the commands below, replace the quoted values with the ones
+for [your Temporal Cloud Namespace](https://docs.temporal.io/cloud/namespaces#access-namespaces). If you're using Microsoft Windows, you may need to
+replace `export` with `set`.
+
+
 ```bash
-export TEMPORAL_ADDRESS='your-namespace.tmprl.cloud:7233'
-export TEMPORAL_NAMESPACE='example.c9ef8'
-export TEMPORAL_TLS_CERT='/path/to/client.pem'
-export TEMPORAL_TLS_KEY='/path/to/client.key'
+export TEMPORAL_ADDRESS="your-namespace.tmprl.cloud:7233"
+export TEMPORAL_NAMESPACE="example.c9ef8"
+export TEMPORAL_TLS_CERT="/path/to/client.pem"
+export TEMPORAL_TLS_KEY="/path/to/client.key"
 ```
 
 ## Project structure
